@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="adaptive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+	<title>SlavaZakaz</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header_menu">
+						<ul class="header__list">
+							<li>
+								<a href="#signup" class="header__link">Запись</a>
+							</li>
+							<li>
+								<a href="#courses" class="header__link">Программа курса</a>
+							</li>
+							<li>
+								<a href="#prices" class="header__link">Цены</a>
+							</li>
+							<li>
+								<a href="#additionalys" class="header__link">Дополнительно</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>	
+		<div class="content">
+			<div class="container1">
+			    <div class="main" id="signup">
+			    	<!--<img src="images/Violet.jpg" alt="" height="800px">-->
+			    	<div class="make">
+				    	<h1>Makeup Artist Виолетта</h1>
+			    	</div>
+					<div class="send_email">
+						<h3>Онлайн запись</h3>
+						<p>Оставьте свои данные, и менеджер <br>свяжется с вами для подтверждения записи</p>
+					 	<form id = "form" name = "form" method = "POST">
+					 	<input class="name _req" type="text" placeholder="Имя"  id="name" name="name"/><br><br>
+
+					 	<input class="phone _req" id ="phone" type = "tel" placeholder="Телефон" name="phone"/><br><br>
+
+					 	<div class="datetime2">
+					 		<label>Дата: </label>
+					 	<input class="datetime" type = "date" min="2018-01-01" max="2100-12-31" id="date" name="date"/><br><br>
+					 	</div>
+
+					 	<div class="datetime2">
+					 	    <label>Время:</label>
+					 	<input class="datetime" type = "time" id="time" name="time"/>
+					 	</div>
+					 	<button class="button" type="submit">Записаться</button>
+					 	<p></p>
+					 	</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contentprice">
+			<div class="container2" id="prices">
+				<h1>PRICE | ЦЕНА</h1>
+				<div class="price">
+					<div class="description">
+						<h2>Макияж любой сложности<br>3000 - 4000 ₽</h2>
+						<p>Макияж подбирается индивидуально, с учетом ваших пожеланий и предпочтений. Помогаю с выбором идеального вырианта для вас</p>
+					</div>
+					<div class="description">
+						<h2>Полный образ<br>3500 - 6000 ₽</h2>
+						<p>Макияж любой сложности с простой укладкой(волны/локоны, эффект "мокрых" волос, хвост, пучок). Помогаю с выбором образа</p>
+					</div>
+					<div class="description">
+						<h2>Свадебный образ<br>6000 - 12000 ₽</h2>
+						<p>Макияж с укладкой. Репетиция входит в стоимость. Участвую в выборе деталей образа.</p>
+					</div>
+				</div>
+				<h1>ADDITIONALY | ДОПОЛНИТЕЛЬНО</h1>
+				<div class="additionaly" id="additionalys">
+					<div class="description">
+						<h2>Выезд в пределах МКАД</h2>
+						<p>500 - 2000 ₽</p>
+					</div>
+					<div class="description">
+						<h2>Выезд зы пределы МКАД</h2>
+						<p>рассчитывается индивидуально</p>
+					</div>
+					<div class="description">
+						<h2>Ранний выезд/сборы до 8:00/срочный выезд</h2>
+						<p>1000 ₽</p>
+					</div>
+					<div class="description">
+                    	<h2>Стразы/жемчужны, пучки ресниц, невидимки/шпильки и сборы входят в стоимость образа</h2>
+                    	<p>студия на м. Проспект мира</p>
+                    </div>
+				</div>
+			</div>
+		</div>
+        <div class="contentCourse">
+        	<div class="container3" id="courses">
+        		<div class="descourse">
+        		<h2>ПРОГРАММА КУРСА "МАКИЯЖ ДЛЯ СЕБЯ"</h2>
+        		<p><strong>Для кого этот курс?</strong><br>
+                Для тех, кто хочет  научиться делать мейк на любой случай. А также повысить свои знания в макияже и обрести для себя много новых знаний в визаже.<br><br>Обучение проходит<strong> 3 дня </strong>в режиме оффлайн в самой уютной студии. Длительность одного урока <strong>4 часа</strong>. Дата и время обговариваются индивидуально</p>
+                </div>
+                <div class="coursedays">
+                	<div class="day"><p><strong>◦ 1 день.</strong><br>
+                Разбор косметички и кистей. Мы подберем тебе самые актуальные и топовые продукты для макияжа и ухода за лицом. Изучаем теорию по данному макияжу. Показ и отработка выбранного тобой мейка с преображением. Создадим много красивых фоток и reels. Я отвечу на все интересующие тебя вопросы.<br><br> ______________________________________ <br><br>
+                В итоге ты освоишь определенную технику макияжа, повысишь свои навыки и точно узнаешь что-то новое для себя.</p></div>
+                	<div class="day2"><p><strong>◦ 2 день.</strong><br>
+				Изучаем теорию по данному макияжу. Показ и практика любого выбранного макияжа. Создаем красивые фотографии и reels с преображением. Отвечаю на все твои вопросы.
+				В результате ты осваиваешь 2 полноценных техник макияжа, узнаешь много лайфхаков и фишек, пробуешь для себя много новых продуктов.</p></div>
+                	<div class="day"><p><strong>◦ 3 день.</strong><br>
+				Изучаем теорию по данному макияжу. Показ и практика любого выбранного макияжа. Создаем красивые фотографии и reels с преображением. Подводим итоги первого дня, повторяем те моменты, где возникали трудности.
+				Подводим итоги всего обучения, отвечаю на все твои вопросы
+				В результате ты осваиваешь 3 полноценных техник макияжа, закрепляешь знания своими отработками и навыками. </p></div>
+                </div>
+                <div class="bonus">
+                	<h2>Бонус: подарок от меня и сертификат</h2>
+                	<p><strong>все продукты и косметику на отработку предоставляю я
+                               стоимость : </strong><s>12990 ₽</s><strong><br> 9990 ₽ только для первых 10 учениц 
+                               успей забронировать место</strong></p>
+                </div>
+        	</div>
+        </div>
+        <div class="contentimages">
+        	 <div class="swiper-container">
+	        	<div class="swiper-wrapper">
+	        		<div class="swiper-slide">
+	        			<img class = "image" src="images/photo_2023-04-16_14-44-05.jpg" alt="клик для увеличения">
+	        		</div>
+	        		<div class="swiper-slide">
+	        			<img class = "image" src="images/photo_2023-04-16_14-44-22.jpg" alt="клик для увеличения">
+	        		</div>
+	        		<div class="swiper-slide">
+	        			<img class = "image" src="images/photo_2023-04-16_14-44-26.png" alt="клик для увеличения">
+	        		</div>
+	        		<div class="swiper-slide">
+	        			<img class = "image" src="images/photo_2023-04-16_14-44-29.jpg" alt="клик для увеличения">
+	        		</div>
+	        		<div class="swiper-slide">
+	        			<img class = "image" src="images/photo_2023-04-16_14-44-31.jpg" alt="клик для увеличения">
+	        		</div>
+	        		<div class="swiper-slide">
+	        			<img class = "image" src="images/photo_2023-04-16_14-44-38.jpg" alt="клик для увеличения">
+	        		</div>
+                    <div class="swiper-slide">
+                    	<img class = "image" src="images/photo_2023-04-16_14-44-40.jpg" alt="клик для увеличения">
+                    </div>
+	        		<div class="swiper-slide">
+	        			<img class = "image" src="images/photo_2023-04-16_14-44-43.jpg" alt="клик для увеличения">
+	        		</div>
+	        		<div class="swiper-slide">
+	        			<img class = "image" src="images/photo_2023-04-28_09-00-38.jpg" alt="клик для увеличения">
+	        		</div>
+	        	</div>
+	        </div>	     	
+        </div>
+        <div class="contentswiper">
+        	<h1>Отзывы клиентов</h1>
+        	<p><strong>Больше отзывов вы можете найти в моём Инстаграм <br> - @villllls.mua</strong></p>
+	        <div class="swiper-container">
+	        	<div class="swiper-wrapper">
+	        		<div class="swiper-slide">
+	        			<p>1 слайд</p>
+	        		</div>
+	        		<div class="swiper-slide">
+	        			<p>2 слайд</p>
+	        		</div>
+	        		<div class="swiper-slide">
+	        			<p>3 слайд</p>
+	        		</div>
+	        	</div>
+	        	<div class="swiper-pagination"></div>
+	        	
+	        </div>
+        </div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/script.php"></script>
+	<script src="js/emailsend.js"></script>
+	<script src="js/script.py"></script>
+</body>
+</html>
